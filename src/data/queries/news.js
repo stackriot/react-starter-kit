@@ -12,9 +12,7 @@ import fetch from 'isomorphic-fetch';
 import NewsItemType from '../types/NewsItemType';
 
 // React.js News Feed (RSS)
-const url =
-  'https://api.rss2json.com/v1/api.json' +
-  '?rss_url=https%3A%2F%2Freactjsnews.com%2Ffeed.xml';
+const url = 'https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss';
 
 let items = [];
 let lastFetchTask;

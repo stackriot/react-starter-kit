@@ -16,9 +16,9 @@ import run from './run';
 // GitHub Pages
 const remote = {
   name: 'github',
-  url: 'https://github.com/<user>/<repo>.git',
-  branch: 'gh-pages',
-  website: 'https://<user>.github.io/<repo>/',
+  url: 'https://github.com/sethbergman/sethbergman-com.git',
+  branch: 'master',
+  website: 'https:/sethbergman.com/',
   static: true,
 };
 
